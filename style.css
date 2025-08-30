@@ -13,6 +13,7 @@
 body {
     font-family: "Inter", sans-serif;
     color: #303030;
+}
 
 header {
     background-color: #2965F1;
@@ -60,10 +61,12 @@ header span {
 .main-image {
     max-width: 715px;
 }
-    /*Вторая секция*//////////////////
+
+/*ffffffffffffffffff*/
+
 .about-section {
     background-color: #fff;
-    padding: 100px 0;
+
 }
 
 
@@ -89,7 +92,7 @@ select {
 
 select:hover,
 .text-field:hover {
-    /* 📍 Стили для выпадающего списка и текстового поля при наведении курсора */
+    border-color: #2965F1
 }
 
 
@@ -100,8 +103,8 @@ select:hover,
     margin-bottom: 79px;
 }
 
-    .skills-wrapper {
-        min-width: 475px;
+.skills-wrapper {
+    min-width: 475px;
     }
 
 
@@ -188,7 +191,7 @@ form {
 
 .btn:hover {
     cursor: pointer;
-}
+    background-color: rgba(41, 101, 241, 0.9);
 }
 
 .line {
@@ -202,12 +205,15 @@ table {
     font-weight: 400;
     font-size: 14px;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     margin: 60px 570px 100px 570px;
+    white-space: nowrap;
+
 }
 
 th, td {
     padding: 12px 15px;
+    white-space: nowrap;
 }
 
 footer {
