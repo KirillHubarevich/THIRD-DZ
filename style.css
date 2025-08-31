@@ -25,19 +25,19 @@ header span {
     font-weight: 700;
     font-size: 20px;
     color: #fff;
-    padding-left: 150px;
+
 }
 
 .main-section {
     background-color: #fafaff;
-    padding: 60px 0;
     min-height: 100vh;
     display: flex;
     align-items: center;
 }
 
  .wrapper {
-    padding: 0 150px;
+     gap: 60px;
+
 }
 
 .main-section .wrapper {
@@ -49,12 +49,14 @@ header span {
 
 .text-wrapper {
   max-width: 425px;
+
 }
 
 .main-title {
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 20px;
+
 }
 
 .main-text {
@@ -102,9 +104,6 @@ select:hover,
 
 .info-wrapper {
     display: flex;
-    justify-content: center;
-    padding-top: 60px;
-    margin-bottom: 79px;
 }
 
 .skills-wrapper {
@@ -121,6 +120,7 @@ select:hover,
 .frameworks,
 .books {
     min-width: 50%;
+
 }
 
 .frameworks-list,
@@ -143,17 +143,17 @@ select:hover,
 }
 
 .skills {
-    min-width: 50%;
     display: flex;
     flex-direction: column;
     gap: 20px;
+    min-width: 50%;
 }
 
 .books-list {
     font-weight: 400;
     font-size: 16px;
     padding-left: 20px;
-    min-width: 50%
+    min-width: 50%;
 }
 
 .label {
@@ -166,6 +166,8 @@ select:hover,
 
 form {
     margin-bottom: 40px;
+    display: flex;
+    gap: 10px;
     /*order: -3;*/
 }
 
@@ -204,15 +206,13 @@ form {
 }
 
 table {
-    border: 1px solid #95a1bb;
+    border: 1px #95a1bb;
     border-collapse: collapse;
     font-weight: 400;
     font-size: 14px;
     display: flex;
     justify-content: center;
     margin: 60px 570px 100px 570px;
-    white-space: nowrap;
-
 }
 
 th, td {
